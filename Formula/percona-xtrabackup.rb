@@ -5,11 +5,11 @@ class PerconaXtrabackup < Formula
   sha256 "4dffa6986aef358675b318b3b9f4a9b8df48e8fc4987ad2469bba1b186b47662"
   revision 3
 
-  bottle do
-    sha256 "668e937c8b5bfd4494325f3fb1cad14dca148c572002f4701a8c74e1a7333247" => :monterey
-    sha256 "9c9b799666a1f0ce3a56d86b01989370a0717aa62497241528005c13f2a2dc01" => :mojave
-    sha256 "1776bd19664d4e423558bde7d5c9260ef6859220f7fe5a287f802ee25f1eeba8" => :high_sierra
-  end
+#   bottle do
+#     sha256 "668e937c8b5bfd4494325f3fb1cad14dca148c572002f4701a8c74e1a7333247" => :monterey
+#     sha256 "9c9b799666a1f0ce3a56d86b01989370a0717aa62497241528005c13f2a2dc01" => :mojave
+#     sha256 "1776bd19664d4e423558bde7d5c9260ef6859220f7fe5a287f802ee25f1eeba8" => :high_sierra
+#   end
 
   depends_on "cmake" => :build
   depends_on "sphinx-doc" => :build
