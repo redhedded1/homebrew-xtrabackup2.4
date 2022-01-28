@@ -4,7 +4,7 @@
 
 
 ## Setup
-- `$ brew tap qinhanlei/xtrabackup2.4`
+- `$ brew tap redhedded1/xtrabackup2.4`
 
 
 ## Install
